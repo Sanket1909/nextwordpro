@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Next Word Prediction</title>
+    <style>
+      body {
+        background-color: #F2F2F2;
+        font-family: Arial, sans-serif;
+      }
+      
+      h1 {
+        text-align: center;
+        color: #333333;
+        margin-top: 50px;
+      }
+      
+      form {
+        margin: 50px auto;
+        max-width: 600px;
+        padding: 20px;
+        border: 1px solid #CCCCCC;
+        background-color: #FFFFFF;
+        border-radius: 5px;
+      }
+      
+      label {
+        display: block;
+        margin-bottom: 10px;
+        color: #333333;
+      }
+      
+      input[type="text"] {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #CCCCCC;
+        border-radius: 5px;
+        font-size: 16px;
+        margin-bottom: 20px;
+      }
+      
+      button[type="submit"] {
+        background-color: #4CAF50;
+        color: #FFFFFF;
+        border: none;
+        border-radius: 5px;
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+      }
+      
+      button[type="submit"]:hover {
+        background-color: #3E8E41;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Next Word Prediction</h1>
+    <form action="{{ url_for('predict') }}" method="POST">
+      <label for="text">Enter your text:</label>
+      <input type="text" name="text" id="text" required>
+      <button type="submit">Predict</button>
+    </form>
+  </body>
+</html>
