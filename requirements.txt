@@ -128,7 +128,7 @@ rfc3339-validator==0.1.4
 rfc3986-validator==0.1.1
 rsa==4.9
 scikit-learn==1.1.2
-scipy==1.9.1
+scipy
 Send2Trash==1.8.0
 six==1.16.0
 sklearn==0.0
