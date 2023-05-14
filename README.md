@@ -1,6 +1,6 @@
 # Next Word Prediction
 
-Live Demo :- https://webappnextword.azurewebsites.net
+Live Demo :- https://sanketflask.azurewebsites.net/
 
 This is a Flask application that uses a trained LSTM model to predict the next words given a prompt.
 
