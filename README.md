@@ -39,4 +39,4 @@ The Flask app consists of two routes. The first route, `/`, is the home page whi
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE) file for details.
