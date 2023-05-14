@@ -16,11 +16,6 @@ The model is an LSTM network with an embedding layer. The model is trained to pr
 
 The Flask app consists of two routes. The first route, `/`, is the home page which contains a form for the user to enter a prompt. The second route, `/predict`, takes the user's input, processes it using the trained model, and returns the predicted next words.
 
-## Screenshots
-
-![Screenshot of Home Page](/screenshots/home.png)
-
-![Screenshot of Result Page](/screenshots/result.png)
 
 ## Getting Started
 
