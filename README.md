@@ -31,6 +31,7 @@ The Flask app consists of two routes. The first route, `/`, is the home page whi
 
 ### Installation
 
+
 1. Clone the repository
 2. Install the required libraries using `pip install -r requirements.txt`
 3. Run the Flask app using `python app.py`
